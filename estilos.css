@@ -40,3 +40,25 @@ body{
     font-weight: bold;
     display: inline-block;
 }
+.header-main{
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+.container-header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px;
+}
+.main-icon-header{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px;
+    justify-content: left;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    max-width:945px;
+    /* grid-area: 945px; */
+}
