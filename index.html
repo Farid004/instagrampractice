@@ -5,26 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>Instagram</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <section class="main-container">
     <header class="header-main">
         <div class="container-header">
             <h2>Instagram </h2>
-            <div>
-                <input type="text" name="Search" id="">
+            <div class="search">
+                <input type="text" name="Search" id="" placeholder="Search">
             </div>
             <div class="main-icon-header">
-                <div class="icons">#1</div>
-                <div class="icons">#2</div>
-                <div class="icons">#3</div>
-                <div class="icons">#4</div>
-                <div class="icons">#5</div>
+                <a href="" class="icons">
+                    <i data-feather="home"></i>
+                </a>
+                <a href="" class="icons">
+                    <i data-feather="send"></i>
+                </a>
+                <a href="" class="icons">
+                    <i data-feather="compass"></i>
+                </a>
+                <a href="" class="icons">
+                    <i data-feather="heart"></i>
+                </a>
+                <a href="" class="icons">
+                    <i data-feather="circle"></i>
+                </a>
             </div>
 
         </div>
 
     </header>
+
+    <section class="info-left">
+        <figure>
+            <img src="img/Logonegro.png" alt="" >
+        </figure>
+
+    </section>
+    <section class="info-right">
+        <div class="info-right-top">
+            <h2>
+                farid_quimbiulco
+            </h2>
+            <a href="">
+                Edit Profile
+            </a>
+            <button class="">
+                
+                    <i data-feather="settings"></i>
+                
+            </button>
+        </div>
+        <div class="info-right-middle">
+            <ul>
+                <li>18 <span>Post</span> </li>
+                <li>336 <span>Followers</span> </li>
+                <li>487 <span>Following</span> </li>
+            </ul>
+        </div>
+        <div class="info-right-bottom">
+            <h2>
+                alert ("AllB")
+            </h2>
+            <span>
+                /h1/ <br>
+                Ecuador <br>
+                Santo Domingo <br>
+                /h1/
+            </span>
+            <div>
+                <h2 style="font-weight: boler;">
+                    Twenty For Podcast
+                </h2>
+                <a href=""> https://open.spotify.com/show/6XRlcHrg0SjNcss1r6pKwS</a>
+            </div>
+        </div>
+    </section>
+    <section class="histroias-destacadas">
+        <div>
+            <figure>
+                <img src="img/destino.png" alt="">
+                <h3>Musica</h3>
+            </figure>
+            <figure>
+                <img src="img/santana.jpeg" alt="">
+                <h3>Loko creepee</h3>
+            </figure>
+            <figure>
+                <img src="img/edu.jpeg" alt="">
+                <h3>Eduardo</h3>
+            </figure>
+        </div>
+    </section>
+
+
+
+
+
+
+
     <section class="post-list">
         <a href="" class="post">
             <figure class="post-image">
@@ -41,4 +121,7 @@
     </section>
 </section>
 </body>
+<script>
+    feather.replace()
+</script>
 </html>
